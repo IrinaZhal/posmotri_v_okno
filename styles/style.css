@@ -153,7 +153,7 @@ ol {
   block-size: 19px;
 }
 
-input[type='checkbox']:checked + .search-form__pseudo-checkbox:after {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox:after {
   content: '';
   background-color: #fff;
   inline-size: 15px;
@@ -226,7 +226,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox:after {
 
 .content__list {
   position: relative;
-  overflow: hidden auto;
+  overflow-y: auto;
   block-size: 298px;
 }
 
